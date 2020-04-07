@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### 
 In the project directory, you can run:
-### `npm start`
+### `npm i && npm start`
 #
 ## Comparison
 
@@ -94,3 +94,7 @@ const Counter_fn = () => {
 		</div > );
 };
 ```
+
+## Screenshot
+
+![](src/reactCounter_ss.png)

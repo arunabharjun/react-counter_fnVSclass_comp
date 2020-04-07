@@ -20,12 +20,12 @@ class Counter_Class extends Component {
 		});
 	};
 
-	componentDidMount(){
-		document.title = `Class Clicled ${this.state.count} times`
+	componentDidMount() {
+		document.title = `Class Clicled ${this.state.count} times`;
 	}
 
-	componentDidUpdate(){
-		document.title = `Class Clicled ${this.state.count} times`
+	componentDidUpdate() {
+		document.title = `Class Clicled ${this.state.count} times`;
 	}
 
 	render() {
@@ -64,8 +64,8 @@ const Counter_fn = () => {
 	};
 
 	useEffect(() => {
-		document.title = `Fn Clicled ${count} times`
-	})
+		document.title = `Fn Clicled ${count} times`;
+	});
 
 	return (
 		<div>
@@ -111,7 +111,9 @@ class Nav extends Component {
 							<a class='navbar-brand justify-content-center'>React Counter</a>
 						</header>
 						<ul class='list-group' style={{ color: 'white' }}>
-							<a class='list-group-item'>- Arunabh Arjun</a>
+							<a class='list-group-item' href={'https://github.com/sunnyarj114'}>
+								- Arunabh Arjun
+							</a>
 						</ul>
 					</div>
 					<main class='bmd-layout-content'>
