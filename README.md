@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# DEMO :
+
+### [http://arunabharjun.com/react/counter/](http://arunabharjun.com/react/counter/)
+
+
 # Comparing Functional and Class component 
 
 
